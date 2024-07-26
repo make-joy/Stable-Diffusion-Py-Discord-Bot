@@ -18,11 +18,16 @@ stable diffusion 디스코드 그림봇
 
 **3.** 같은 폴더에 **`.env예시`** 파일을 참조하여 **`.env`** 파일 생성 후 정보 입력 
 
-### _.env 파일 필수 입력_
+### _.env 파일 예시
 
 ```env
-PREFIXS: ["BOT_PREFIX", "", ""],
-TOKEN: "BOT_TOKEN",
+TOKEN: 디스코드봇 토큰
+PREFIXS: /,+,.,?,!
+HELP_CMDS: 그림봇,drawbot,도움말,rmflaqht,ehdnaakf
+DRAW_CMDS: 그림,그리기,rmfla,rmflrl
+BOT_NAME: MJ Draw Bot
+TRANSLATE_API_URL: deepLX 번역 API URL
+STABLE_API_URL: http://127.0.0.1:7860
 ```
 
 **4.** Stable Diffusion WebUi 실행 시 봇 파일도 바로 실행을 위해 Webui.bat 파일 수정<br/>
