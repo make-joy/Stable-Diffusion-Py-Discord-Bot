@@ -1,0 +1,7 @@
+TOKEN = 디스코드봇 토큰
+PREFIXS = /,+,.,?,!
+HELP_CMDS = 그림봇,drawbot,도움말,rmflaqht,ehdnaakf
+DRAW_CMDS = 그림,그리기,rmfla,rmflrl
+BOT_NAME = MJ Draw Bot
+TRANSLATE_API_URL = deepLX 번역 API URL
+STABLE_API_URL = http://127.0.0.1:7860
