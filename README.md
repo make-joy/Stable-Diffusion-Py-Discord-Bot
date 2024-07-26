@@ -18,7 +18,7 @@ stable diffusion 디스코드 그림봇
 
 **3.** 같은 폴더에 **`.env예시`** 파일을 참조하여 **`.env`** 파일 생성 후 정보 입력 
 
-### _.env 파일 예시
+### .env 파일 예시
 
 ```env
 TOKEN: 디스코드봇 토큰
@@ -30,8 +30,19 @@ TRANSLATE_API_URL: deepLX 번역 API URL
 STABLE_API_URL: http://127.0.0.1:7860
 ```
 
-**4.** Stable Diffusion WebUi 실행 시 봇 파일도 바로 실행을 위해 Webui.bat 파일 수정<br/>
+**4.** Stable Diffusion WebUi 실행 시, 디스코드 봇을 바로 실행을 위해 webui-user.bat 파일 내용 수정<br/>
 ```shell
+@echo off
+start cmd /k "python main.py" 
+
+@echo off
+set PYTHON=
+set GIT=
+set VENV_DIR=
+set COMMANDLINE_ARGS=--api --xformers --deepdanbooru --autolaunch --no-half-vae --listen
+git pull
+
+call webui.bat
 
 ```
 
