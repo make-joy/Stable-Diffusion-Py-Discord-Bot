@@ -12,9 +12,9 @@ stable diffusion 디스코드 그림봇
 
 ## **봇 설치 및 사용법**
 
-**1.** Stable Diffusion WebUi 설치 [바로가기](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+**1.** [Stable Diffusion WebUi](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 및 [파이썬 3.10.6](https://www.python.org/downloads/release/python-3106/) 설치 
 
-**2.** 이 저장소의 모든 파일을 Stable Diffusion WebUi 설치 폴더 내부로 이동
+**2.** 이 저장소의 main.py 파일을 Stable Diffusion WebUi 설치 폴더 내부로 이동
 
 **3.** 같은 폴더에 **`.env예시`** 파일을 참조하여 **`.env`** 파일 생성 후 정보 입력 
 
@@ -44,6 +44,11 @@ git pull
 
 call webui.bat
 
+```
+
+**5.** 디스코드 봇 실행을 위한 모듈 설치<br/>
+```shell
+pip install discord requests aiohttp BeautifulSoup4 pillow
 ```
 
 ## 라이센스
