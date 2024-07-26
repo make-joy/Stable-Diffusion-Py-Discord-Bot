@@ -130,7 +130,7 @@ spoiler_words = [
     'naked', 'netorare', 'nipple', 'nsfw', 'ntr', 'nude', 
     'oppai', 'oral', 'orgasm', 
     'paizuri', 'penis', 'pregnant', 'pussy', 
-    'racy', 'rape', 
+    'racy', 'rape', 'rub',
     'semen', 'sex', 'shirtlift', 'slave', 'spankthroat', 'squirting', 
     'tit', 
     'underwear', 
